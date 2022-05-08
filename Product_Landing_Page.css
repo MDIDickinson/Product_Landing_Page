@@ -1,0 +1,25 @@
+nav {
+    position: fixed;
+    width: 100%;
+    top:0;
+    left:800px;
+  }
+  
+  header {
+    background-color: grey;
+  }
+  
+  @media (max-width: 500px) {
+    header {
+      flex-wrap: wrap;
+    }
+  }
+  
+  #nav {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  img {
+    height:250px;
+  }
